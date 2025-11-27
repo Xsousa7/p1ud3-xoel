@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+header, section {
+    margin-bottom: 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.tabla-licencias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    border: 1px solid #333;
+}
+
+.tabla-licencias div {
+    border: 1px solid #aaa;
+    padding: 10px;
+}
